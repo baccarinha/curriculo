@@ -1,0 +1,32 @@
+html {
+border: solid 3px blue;
+}
+body {
+background-color: pink;
+font-family: Brush Script MT
+}
+tittle{
+color: blue;
+font-family: Brush Script MT
+}
+img{
+border-radius: 10px ;
+border: solid 5px blue ;
+}
+h1{
+color: blue;
+font-family: Brush Script MT
+font-style: italic;
+}
+h2{
+color: blue;
+font-family: arial;
+font-style: italic;
+}
+p{
+color: pink;
+border-radius:  10px;
+background-color: blue;
+border: solid 
+font-family: Brush Script MT
+}
