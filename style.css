@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+  color: #333;
+}
+
+.topo {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  background: linear-gradient(135deg, #5f2c82, #49a09d);
+  color: white;
+}
+
+.foto {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 3px solid white;
+}
+
+.info h1 {
+  margin: 0;
+}
+
+.info h2 {
+  margin: 5px 0 15px;
+  font-weight: normal;
+}
+
+main {
+  padding: 30px;
+}
+
+section {
+  margin-bottom: 25px;
+}
+
+h3 {
+  color: #5f2c82;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #ddd;
+}
+
+
+.botoes {
+  margin-top: 18px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.botao {
+  width: 90px;
+  height: 90px;
+  border-radius: 22px;
+  text-decoration: none;
+  background: #2e2e2e;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.25s ease;
+}
+
+.botao:hover {
+  background: #e88fb5;
+  color: #2e2e2e;
+}
+
+.inicial {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.texto {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+/* Destaque especial do PDF */
+.pdf {
+  background: #e88fb5;
+  color: #2e2e2e;
+}
+
+.pdf:hover {
+  background: #2e2e2e;
+  color: white;
+}
