@@ -129,6 +129,12 @@ footer {
   font-weight: bold;
   line-height: 1;
 }
+
+.video-apresentacao {
+  display: flex;
+  justify-content: center;
+}
+
 .video-apresentacao iframe {
   width: 100%;
   max-width: 350px;
@@ -137,7 +143,7 @@ footer {
   border: none;
   box-shadow: 0 10px 25px rgba(209,140,240,0.4);
   display: block;
-  margin: 20px 0;
+  margin: 20px auto;
 }
 
 .texto {
