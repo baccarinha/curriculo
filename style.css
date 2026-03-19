@@ -20,17 +20,22 @@ main {
 }
 
 .botao i {
-  margin-right: 8px;
-  font-size: 18px;
+  font-size: 26px; /* maior */
+  margin: 0;
 }
 
 .topo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+
+  padding: 40px;
   background: linear-gradient(135deg, #5f2c82, #49a09d);
   color: white;
+
   box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 
@@ -107,8 +112,8 @@ footer {
 }
 
 .botao {
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
   border-radius: 20px;
   text-decoration: none;
   background: #1e1e1e;
@@ -126,7 +131,7 @@ footer {
 .botao:hover {
   background: #d18cf0;
   color: #000;
-  transform: scale(1.05);
+  transform: scale(1.08);
 }
 
 .inicial {
