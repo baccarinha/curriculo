@@ -19,7 +19,8 @@ body {
   gap: 20px; /* espaçamento entre elementos */
   padding: 40px; /* espaçamento interno */
   background: linear-gradient(135deg, #5f2c82, #49a09d); /*  gradiente de fundo */
-  color: black; /*  cor de destaque */ 
+  color: black; /*  cor de destaque */
+  text-shadow: 0 2px 8px rgba(0,0,0,0.3);
   box-shadow: 0 10px 30px rgba(0,0,0,0.5); /* sombra para profundidade */
 }
 
