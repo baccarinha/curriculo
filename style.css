@@ -11,6 +11,8 @@ body {
 
 /* ===== TOPO ===== */
 .topo {
+  background: rgba(95, 44, 130, 0.6);
+  backdrop-filter: blur(15px);
   display: flex; /* layout flexível */
   flex-direction: column; /*      alinhamento vertical */
   align-items: center; /*    centraliza horizontalmente */
@@ -108,14 +110,21 @@ main {
 
 section {
   margin: 30px auto;
-  background: #1a1a1a; /* preto elegante */
-  color: #fff; /* texto branco */
   padding: 30px;
-  border: 1px solid #2a2a2a;
-  border-radius: 18px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.8);
-  transition: transform 0.3s ease;
   max-width: 800px;
+
+  /* VIDRO ✨ */
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  box-shadow: 0 8px 30px rgba(0,0,0,0.6);
+
+  color: #fff;
+  transition: all 0.3s ease;
 }
 
 section p,
@@ -125,7 +134,12 @@ section li {
 
 section:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 35px rgba(209,140,240,0.2);
+
+  box-shadow: 
+    0 10px 40px rgba(209,140,240,0.3),
+    0 0 20px rgba(209,140,240,0.2);
+
+  border: 1px solid rgba(209,140,240,0.4);
 }
 
 h3 {
