@@ -90,17 +90,24 @@ main {
 
 section {
   margin: 30px auto;
-  background: #fff;
-  color: #222; /* 👈 ADICIONE ISSO */
+  background: #1a1a1a; /* preto elegante */
+  color: #fff; /* texto branco */
   padding: 30px;
+  border: 1px solid #2a2a2a;
   border-radius: 18px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.8);
   transition: transform 0.3s ease;
   max-width: 800px;
 }
 
+section p,
+section li {
+  color: #eee;
+}
+
 section:hover {
   transform: translateY(-5px);
+  box-shadow: 0 12px 35px rgba(209,140,240,0.2);
 }
 
 h3 {
