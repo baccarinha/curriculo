@@ -142,12 +142,12 @@ footer {
 .menu-lateral {
   position: fixed;
   top: 50%;
-  left: 15px;
+  left: 20px; /* mais alinhado com o site */
   transform: translateY(-50%);
 
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
 
   z-index: 9999;
 }
@@ -158,28 +158,28 @@ footer {
   align-items: center;
   gap: 10px;
 
-  padding: 8px 14px;
-  border-radius: 12px;
+  padding: 10px 16px;
+  border-radius: 14px;
 
   background: #1e1e1e;
   color: #d18cf0;
   text-decoration: none;
 
-  font-size: 13px;
+  font-size: 14px;
 
-  width: fit-content;       /* tamanho automático */
-  max-width: 180px;         /* não cresce demais */
-  min-width: 130px;         /* mantém padrão */
-
-  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  width: fit-content;     /* tamanho exato do conteúdo */
+  min-width: 140px;       /* mantém padrão bonito */
+  
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
   transition: all 0.3s ease;
 }
 
 /* Ícone */
 .menu-lateral a span:first-child {
-  font-size: 16px;
-  width: 20px; /* alinhamento fixo dos ícones */
-  text-align: center;
+  font-size: 18px;
+  width: 24px; /* alinha todos os ícones */
+  display: flex;
+  justify-content: center;
 }
 
 /* Texto */
@@ -191,5 +191,5 @@ footer {
 .menu-lateral a:hover {
   background: #d18cf0;
   color: #000;
-  transform: translateX(6px);
+  transform: translateX(8px) scale(1.03);
 }
