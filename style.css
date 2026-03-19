@@ -41,6 +41,15 @@ body {
   transition: all 0.3s ease;
 }
 
+.titulo-topo:hover {
+  text-shadow: 
+    0 0 8px rgba(209,140,240,0.9),
+    0 0 20px rgba(209,140,240,0.7),
+    0 0 30px rgba(209,140,240,0.5);
+
+  transform: scale(1.03);
+}
+
 .foto {
   width: 150px;
   height: 150px;
