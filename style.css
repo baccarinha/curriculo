@@ -70,8 +70,9 @@ body {
 .botoes {
   margin-top: 18px;
   display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
+  gap: 10px;
+  flex-wrap: nowrap; /* 🚀 impede quebra */
+  justify-content: center;
 }
 
 .botao {
@@ -244,25 +245,57 @@ footer {
 
 @media (max-width: 768px) {
 
+  .botoes {
+  gap: 6px;
+}
+
+.botao {
+  width: 65px;
+  height: 65px;
+}
+
+.botao i {
+  font-size: 16px;
+}
+
+.texto {
+  font-size: 9px;
+}
+  
   body {
   overflow-x: hidden;
 }
   
   /* MENU LATERAL VIRA TOPO */
+@media (max-width: 768px) {
+
   .menu-lateral {
-    position: static;
-    transform: none;
+    position: fixed; /* continua acompanhando */
+    top: auto;
+    bottom: 20px; /* 👇 vira menu inferior */
+    left: 50%;
+    transform: translateX(-50%);
+    
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
-    margin: 10px;
+    flex-wrap: nowrap;
+    
+    background: rgba(30,30,30,0.8);
+    backdrop-filter: blur(10px);
+    padding: 8px;
+    border-radius: 20px;
   }
 
   .menu-lateral a {
-    font-size: 12px;
-    padding: 6px 10px;
+    font-size: 11px;
+    padding: 6px 8px;
     min-width: auto;
   }
+
+  .menu-lateral a span:last-child {
+    display: none; /* 👀 só ícones no mobile */
+  }
+}
 
   /* TOPO MAIS COMPACTO */
   .topo {
