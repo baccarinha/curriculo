@@ -19,7 +19,7 @@ body {
   gap: 20px; /* espaçamento entre elementos */
   padding: 40px; /* espaçamento interno */
   background: linear-gradient(135deg, #5f2c82, #49a09d); /*  gradiente de fundo */
-  color: white; /*  cor de destaque MUDEI AQUI*/ 
+  color: black; /*  cor de destaque */ 
   box-shadow: 0 10px 30px rgba(0,0,0,0.5); /* sombra para profundidade */
 }
 
