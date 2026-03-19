@@ -19,6 +19,19 @@ main {
   text-transform: uppercase;
 }
 
+.email { background: #444; }
+.whatsapp { background: #25D366; }
+.linkedin { background: #0077b5; }
+.pdf { background: #e63946; }
+
+.email:hover,
+.whatsapp:hover,
+.linkedin:hover,
+.pdf:hover {
+  background: #d18cf0;
+  color: #000;
+}
+
 .botao i {
   font-size: 26px; /* maior */
   margin: 0;
