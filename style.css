@@ -19,6 +19,11 @@ main {
   text-transform: uppercase;
 }
 
+.botao i {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
 .topo {
   display: flex;
   flex-direction: column;
