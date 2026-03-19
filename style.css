@@ -26,11 +26,19 @@ body {
 
 
 .titulo-topo {
-  font-size: 40px; /* tamanho grande para destaque */                
-  margin-bottom: 20px; /* espaçamento abaixo do título */
-  letter-spacing: 3px; /* espaçamento entre letras */
-  font-weight: bold; /*                             negrito para impacto */                             
-  text-transform: uppercase; /*  texto em maiúsculas para destaque */
+  color: #0f0f0f;
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  /* ✨ Glow roxo suave */
+  text-shadow: 
+    0 0 5px rgba(209,140,240,0.6),
+    0 0 10px rgba(209,140,240,0.4),
+    0 0 20px rgba(209,140,240,0.2);
+
+  transition: all 0.3s ease;
 }
 
 .foto {
