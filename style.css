@@ -19,7 +19,7 @@ body {
   gap: 20px; /* espaçamento entre elementos */
   padding: 40px; /* espaçamento interno */
   background: linear-gradient(135deg, #5f2c82, #49a09d); /*  gradiente de fundo */
-  color: #0c0c0c; /*  cor de destaque */
+  color: #d18cf0; /*  cor de destaque MUDEI AQUI*/ 
   box-shadow: 0 10px 30px rgba(0,0,0,0.5); /* sombra para profundidade */
 }
 
@@ -90,7 +90,7 @@ main {
 
 section {
   margin: 30px auto;
-  background: #111;
+  background: #d18cf0; /* MUDEI AQUI */
   padding: 30px;
   border-radius: 18px;
   box-shadow: 0 8px 25px rgba(0,0,0,0.6);
