@@ -141,7 +141,6 @@ footer {
   font-size: 14px;
 }
 
-/* ===== MENU LATERAL ===== */
 .menu-lateral {
   position: fixed;
   top: 50%;
@@ -150,7 +149,7 @@ footer {
 
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
 
   z-index: 9999;
 }
@@ -158,19 +157,38 @@ footer {
 .menu-lateral a {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
 
-  padding: 10px 15px;
-  border-radius: 12px;
+  padding: 10px 16px;
+  border-radius: 14px;
 
   background: #1e1e1e;
   color: #fff;
   text-decoration: none;
 
-  transition: 0.3s;
+  font-size: 14px;
+  white-space: nowrap; /* impede quebrar linha */
+
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
 }
 
+/* Ícone */
+.menu-lateral a span:first-child {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Texto */
+.menu-lateral a span:last-child {
+  font-size: 13px;
+}
+
+/* Hover bonito */
 .menu-lateral a:hover {
   background: #d18cf0;
   color: #000;
+  transform: translateX(5px);
 }
