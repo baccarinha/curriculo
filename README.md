@@ -5,7 +5,7 @@ Meu site é um currículo online interativo, desenvolvido com apoio de ferrament
 
 [Meu Currículo](https://baccarinha.github.io/curriculo/)
 
-|Tecnologias Utilizadas|           
+|**Tecnologias Utilizadas**|           
 |---------|
 |- HTML|
 |- CSS|
